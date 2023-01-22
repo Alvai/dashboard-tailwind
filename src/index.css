@@ -1,3 +1,11 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+  :root {
+    --selection-width-open: 248px;
+    --selection-width-closed: 30px;
+    --navbar-width: 84px;
+  }
+}
