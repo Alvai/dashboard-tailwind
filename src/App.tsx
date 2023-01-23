@@ -2,7 +2,7 @@ import { CollapsibleWrapper } from "./Collapse";
 
 function App() {
   return (
-    <div className="App h-screen flex">
+    <div className="App h-screen flex overflow-x-hidden">
       <div className="bg-amber-300 w-navbar z-10 min-w-navbar">navbar</div>
       <CollapsibleWrapper
         collapsingDirection="closeToLeft"
